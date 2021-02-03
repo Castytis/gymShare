@@ -20,9 +20,14 @@ export default function EventListItem({ event}) {
           </Item>
         </Item.Group>
       </Segment>
-      <Segment secondary>
+      <Segment >
         <span>
           <Icon name='clock' /> {format(event.date, 'MMMM d, yyyy h:mm a')}
+        </span>
+      </Segment>
+      <Segment secondary>
+        <span>
+        <Icon name='bolt' /> {event.category}
         </span>
       </Segment>
       <Segment >
@@ -37,12 +42,12 @@ export default function EventListItem({ event}) {
       </Segment>
       <Segment clearing>
         <div>{event.description}</div>
-        <Button
+        {/* <Button
           onClick={() => deleteEventInFirestore(event.id)}
           color='red'
           floated='right'
           content='Ištrinti'
-        />
+        /> */}
         <Button
           as={Link} to={`/events/${event.id}`}
           color='orange'
