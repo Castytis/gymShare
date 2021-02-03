@@ -1,8 +1,8 @@
 export const categoryData = [
-    {key: 's', text: 'Jėgos', value: 's'},
-    {key: 'k', text: 'Tempimo', value: 'k'},
-    {key: 'm', text: 'Lankstumo', value: 'm'},
-    {key: 'n', text: 'Subalansuota', value: 'n'},
-    {key: 'p', text: 'Ištvermės', value: 'p'},
-    {key: 'z', text: 'Apšilimas', value: 'z'},
+    {key: 'Jėgos', text: 'Jėgos', value: 'Jėgos'},
+    {key: 'Tempimo', text: 'Tempimo', value: 'Tempimo'},
+    {key: 'Lankstumo', text: 'Lankstumo', value: 'Lankstumo'},
+    {key: 'Subalansuota', text: 'Subalansuota', value: 'nSubalansuota'},
+    {key: 'Ištvermės', text: 'Ištvermės', value: 'Ištvermės'},
+    {key: 'Apšilimas', text: 'Apšilimas', value: 'Apšilimas'},
 ];
